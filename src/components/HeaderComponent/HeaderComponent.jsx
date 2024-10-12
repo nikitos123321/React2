@@ -6,7 +6,7 @@ export function Header() {
             <div className="center">
                 <header className='container'>
                     <nav className={style.nav}>
-                        <a href="#!">О нас</a>
+                        <a href="#!">О вас</a>
                         <a href="#!">Каталог</a>
                         <a href="#!">Где нас найти</a>
                     </nav>
