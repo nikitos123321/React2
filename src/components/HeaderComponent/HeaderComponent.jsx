@@ -1,4 +1,5 @@
 import style from './Header.module.css'
+import logo from '/src/assets/avtotorgLogo 1.svg'
 
 export function Header() {
     return (
@@ -10,7 +11,7 @@ export function Header() {
                         <a href="#!">Каталог</a>
                         <a href="#!">Где нас найти</a>
                     </nav>
-                    <img src="src/assets/avtotorgLogo 1.svg" alt="s" className={style.logo}>
+                    <img src={logo} alt="s" className={style.logo}>
 
                     </img>
                     <div className={style.header_btns}>

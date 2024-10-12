@@ -19,3 +19,8 @@
     color:white;
     box-shadow: 0;
 }
+
+.category p:hover{
+    background-color: #0009EA;
+    color:white;
+}
